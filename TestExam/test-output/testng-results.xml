@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27638" started-at="2020-11-09T09:59:52Z" finished-at="2020-11-09T10:00:20Z">
+    <groups>
+    </groups>
+    <test name="chrome Test" duration-ms="27461" started-at="2020-11-09T09:59:52Z" finished-at="2020-11-09T10:00:20Z">
+      <class name="FinalTest.Crossbrowsertesting">
+        <test-method status="PASS" signature="opengg(java.lang.String)[pri:0, instance:FinalTest.Crossbrowsertesting@5e3a8624]" name="opengg" duration-ms="27329" started-at="2020-11-09T15:29:52Z" finished-at="2020-11-09T15:30:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opengg -->
+      </class> <!-- FinalTest.Crossbrowsertesting -->
+    </test> <!-- chrome Test -->
+    <test name="firefox Test" duration-ms="13" started-at="2020-11-09T10:00:20Z" finished-at="2020-11-09T10:00:20Z">
+      <class name="FinalTest.Crossbrowsertesting">
+        <test-method status="PASS" signature="opengg(java.lang.String)[pri:0, instance:FinalTest.Crossbrowsertesting@f6c48ac]" name="opengg" duration-ms="6" started-at="2020-11-09T15:30:20Z" finished-at="2020-11-09T15:30:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opengg -->
+      </class> <!-- FinalTest.Crossbrowsertesting -->
+    </test> <!-- firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
